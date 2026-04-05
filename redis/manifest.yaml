@@ -55,7 +55,7 @@ spec:
         image: redis:7.0
         volumeMounts:
         - name: redis
-          mountPath: /data/db
+          mountPath: /data
  # This is PVC
   volumeClaimTemplates:
   - metadata:
